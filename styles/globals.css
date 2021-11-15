@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@responsive {
+    .h-banner {
+       height: 600px;
+    }
+    .img-banner{
+        transform: translateX(30%)
+    }
+    .translate-top{
+        transform: translateY(-100%)
+    }
+    .img-responsive{
+        min-height: 100px;
+        min-width: 100px;
+        max-height: 100px;
+        max-width: 100px;
+    }
+    .bottom-100{
+        bottom: 100px;
+    }
+    .b-h{
+        height: 490px;
+    }
+}
